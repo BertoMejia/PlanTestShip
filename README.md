@@ -1,12 +1,12 @@
-# PlanTestShip
+# Me Code Test Ship
 
-**Plan it. Test it. Ship it.**
+**Me code. Me test. You ship.**
 
-PlanTestShip is a structured development workflow for AI-assisted coding.
+Me Code Test Ship is a structured development workflow for AI-assisted coding.
 
 It helps developers and vibe coders use AI agents to move fast without letting the codebase turn into a mess.
 
-Instead of asking an agent to “just build it,” PlanTestShip gives you a repeatable system:
+Instead of asking an agent to “just build it,” Me Code Test Ship gives you a repeatable system:
 
 > - Plan the work
 > - Write a clear prompt
@@ -18,11 +18,11 @@ Instead of asking an agent to “just build it,” PlanTestShip gives you a repe
 > - Ship a focused PR
 > - Repeat
 
-AI coding is fast. PlanTestShip makes it disciplined.
+AI coding is fast. Me Code Test Ship makes it disciplined.
 
 ---
 
-## Why PlanTestShip exists
+## Why Me Code Test Ship exists
 
 AI coding agents can generate code quickly, but speed alone is not enough.
 
@@ -38,15 +38,15 @@ Without structure, AI-assisted development usually breaks down because:
 * docs go stale
 * every new agent session starts from scratch
 
-PlanTestShip fixes that.
+Me Code Test Ship fixes that.
 
 It gives both the developer and the AI agent a clear workflow for planning, testing, reviewing, verifying, and shipping production-ready code.
 
 ---
 
-## What PlanTestShip does
+## What Me Code Test Ship does
 
-PlanTestShip gives your project a lightweight operating system for AI-assisted development.
+Me Code Test Ship gives your project a lightweight operating system for AI-assisted development.
 
 It helps your agent understand:
 
@@ -76,7 +76,7 @@ The result is simple:
 
 ## Who this is for
 
-PlanTestShip is for:
+Me Code Test Ship is for:
 
 * developers using AI coding agents
 * vibe coders who want better structure
@@ -102,7 +102,7 @@ It works especially well for:
 
 Most AI coding workflows ask the agent to do too much with too little structure.
 
-PlanTestShip changes the workflow from this:
+Me Code Test Ship changes the workflow from this:
 
 ```text
 Prompt → Code → Hope it works
@@ -155,7 +155,7 @@ This keeps the agent from guessing, drifting, or coding too early.
 
 ### 3. Test-first execution
 
-PlanTestShip includes a quality and TDD workflow that pushes the agent to:
+Me Code Test Ship includes a quality and TDD workflow that pushes the agent to:
 
 * select a small task slice
 * write failing tests
@@ -175,7 +175,7 @@ The goal is to generate code that can be trusted.
 
 The AI agent needs structure, but so does the developer.
 
-PlanTestShip includes a developer playbook that helps you work efficiently with AI:
+Me Code Test Ship includes a developer playbook that helps you work efficiently with AI:
 
 * work on one issue at a time
 * keep one active PR at a time
@@ -196,7 +196,7 @@ It makes the developer more effective.
 
 AI coding sessions lose momentum when the context only exists in chat.
 
-PlanTestShip keeps important project state in files, so every new session can quickly understand:
+Me Code Test Ship keeps important project state in files, so every new session can quickly understand:
 
 * what the product is
 * how the architecture works
@@ -236,7 +236,7 @@ That means less re-explaining and more shipping.
   Defines the agent load order, source-of-truth rules, execution policy, change control, and definition of done.
 
 * `.agent/INIT_PROMPT.md`
-  A bootstrap prompt for adapting an existing active project to the PlanTestShip workflow.
+  A bootstrap prompt for adapting an existing active project to the Me Code Test Ship workflow.
 
 * `.agent/architecture-rules/*.md`
   Service-specific architecture rules loaded only when relevant.
@@ -248,14 +248,14 @@ That means less re-explaining and more shipping.
 
 ## Quick start
 
-### Use PlanTestShip in a new project
+### Use Me Code Test Ship in a new project
 
 1. Copy the `.agent/` and `docs/` folders into your new project.
 2. Fill in `docs/PROJECT.md` with the product, pages, user flows, requirements, and acceptance criteria.
 3. Create or update `docs/ARCHITECTURE_INDEX.md` so it reflects the architecture you want.
 4. Adjust `.agent/architecture-rules/*.md` only if your project needs different service rules.
 5. Start your AI coding agent.
-6. Tell it to read `.agent/AGENT.md` and follow PlanTestShip.
+6. Tell it to read `.agent/AGENT.md` and follow Me Code Test Ship.
 7. Let the agent generate `docs/PLAN.md` from:
 
    * `docs/PROJECT.md`
@@ -266,7 +266,7 @@ That means less re-explaining and more shipping.
 
 ---
 
-### Use PlanTestShip in an existing project
+### Use Me Code Test Ship in an existing project
 
 1. Copy the `.agent/` and `docs/` folders into the existing project.
 2. Paste `.agent/INIT_PROMPT.md` into your agent session.
@@ -281,7 +281,7 @@ That means less re-explaining and more shipping.
 
 ## Recommended developer workflow
 
-PlanTestShip works best when you keep the work small and focused.
+Me Code Test Ship works best when you keep the work small and focused.
 
 ### 1. Pick one issue
 
@@ -324,7 +324,7 @@ Please consider any other edge cases that might be relevant and add them to the 
 ```
 
 You do not need to explain the full workflow every time.
-PlanTestShip already gives the agent the process.
+Me Code Test Ship already gives the agent the process.
 
 Your job is to give it a clear task.
 
@@ -427,7 +427,7 @@ A task is not done just because the agent wrote code.
 
 A task is done when:
 
-* the AI followed the PlanTestShip workflow
+* the AI followed the Me Code Test Ship workflow
 * the acceptance criteria are satisfied
 * tests cover the changed behavior
 * verification checks pass
@@ -441,7 +441,7 @@ A task is done when:
 
 ## The promise
 
-PlanTestShip helps you move from chaotic AI coding to structured AI-assisted development.
+Me Code Test Ship helps you move from chaotic AI coding to structured AI-assisted development.
 
 You still get the speed.
 
@@ -479,7 +479,7 @@ And the developer has:
 
 ## Bottom line
 
-PlanTestShip gives AI the system.
+Me Code Test Ship gives AI the system.
 You give AI the task.
 
 Keep the work small.
